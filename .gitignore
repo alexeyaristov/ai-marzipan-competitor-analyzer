@@ -1,0 +1,28 @@
+# Secrets — env.example.txt не игнорируется и остаётся в репозитории
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+
+# Virtual env
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Builds / binaries
+dist/
+build/
+desktop/build/
+desktop/dist/
+*.exe
+
+# OS junk
+.DS_Store
+Thumbs.db
